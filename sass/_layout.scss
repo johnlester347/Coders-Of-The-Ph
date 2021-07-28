@@ -1,0 +1,24 @@
+.header {
+    background-color: orangered;
+    grid-column: full-start / full-end;
+}
+
+.about {
+    background-color: palegreen;
+    grid-column: center-start / center-end;
+}
+
+.gallery {
+    background-color: peru;
+    grid-column: full-start / full-end;
+}
+
+.contact {
+    background-color: green;
+    grid-column: center-start / center-end;
+}   
+
+.footer {
+    background-color: paleturquoise;
+    grid-column: full-start / full-end;
+}
