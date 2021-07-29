@@ -1,16 +1,25 @@
 .header {
-    background-color: orangered;
     grid-column: full-start / full-end;
+    background-color: red;
 }
 
 .about {
-    background-color: palegreen;
-    grid-column: center-start / center-end;
+    // background-color: palegreen;
+    grid-column: full-start / col-start 5;
+    grid-row: 2 / 3;
 }
 
-.gallery {
-    background-color: peru;
+.about-1 {
+    background-color: rgb(20, 110, 2);
+    grid-column: col-start 5 / full-end;
+    grid-row: 2 / 3;
+}
+
+.about-2 {
+    background-color: #8d0000;
     grid-column: full-start / full-end;
+    grid-row: 3 / 4;
+    padding: 5vw;
 }
 
 .contact {
