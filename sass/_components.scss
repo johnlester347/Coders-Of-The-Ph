@@ -235,7 +235,7 @@
 }
 
 .contact {
-    padding: 4vw 4vw 6vw 4vw;
+    padding: 5rem 5rem 7rem 5rem;
 
     &__box {
         display: grid;
@@ -258,6 +258,7 @@
 
     &__text {
        display: flex;
+       align-items: center;
        margin-bottom: 3rem;
 
 
