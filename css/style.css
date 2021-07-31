@@ -194,6 +194,63 @@ body {
     background-color: #8d0000;
     transform: translateY(-0.25rem); }
 
+.contact {
+  padding: 4vw 4vw 6vw 4vw; }
+  .contact__box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    justify-content: center;
+    align-items: start;
+    grid-gap: 3rem; }
+  .contact__heading {
+    text-align: center;
+    margin: 2rem 0 2.5rem 0;
+    font-size: 4rem; }
+  .contact__container-1 {
+    display: flex;
+    flex-direction: column; }
+  .contact__text {
+    display: flex;
+    margin-bottom: 3rem; }
+    .contact__text i {
+      font-size: 3rem;
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      padding: .8rem; }
+  .contact__h1 {
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #000; }
+  .contact__title {
+    padding: 1rem 0;
+    display: inline-block;
+    align-self: flex-start;
+    font-weight: 500;
+    font-size: 2.5rem;
+    margin-bottom: 2rem; }
+    .contact__title::after {
+      content: "";
+      display: block;
+      height: 3px;
+      width: 50%;
+      background-color: #a80000;
+      margin-top: 0.5rem; }
+  .contact__label {
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-bottom: 1rem; }
+  .contact__input {
+    border: 1px solid #dfdfdf;
+    padding: 1rem;
+    outline: none;
+    margin-bottom: .6rem;
+    border-radius: 4px; }
+
+.fb {
+  margin-right: 1.7rem; }
+
 .header {
   grid-column: full-start / full-end;
   background-color: red; }
@@ -214,7 +271,6 @@ body {
   padding: 5vw; }
 
 .contact {
-  background-color: green;
   grid-column: center-start / center-end; }
 
 .footer {
