@@ -195,7 +195,7 @@ body {
     transform: translateY(-0.25rem); }
 
 .contact {
-  padding: 4vw 4vw 6vw 4vw; }
+  padding: 5rem 5rem 7rem 5rem; }
   .contact__box {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -211,6 +211,7 @@ body {
     flex-direction: column; }
   .contact__text {
     display: flex;
+    align-items: center;
     margin-bottom: 3rem; }
     .contact__text i {
       font-size: 3rem;
@@ -272,6 +273,9 @@ body {
 
 .contact {
   grid-column: center-start / center-end; }
+  @media only screen and (max-width: 500px) {
+    .contact {
+      grid-column: full-start / full-end; } }
 
 .footer {
   background-color: #181a1a;
