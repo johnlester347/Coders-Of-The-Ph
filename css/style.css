@@ -14,6 +14,9 @@ li {
 html {
   box-sizing: border-box;
   font-size: 62.5%; }
+  @media only screen and (max-width: 800px) {
+    html {
+      font-size: 50%; } }
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -106,18 +109,27 @@ body {
     text-align: center;
     text-transform: uppercase;
     font-size: 4rem; }
+    @media only screen and (max-width: 500px) {
+      .about__heading {
+        font-size: 3rem; } }
     .about__heading-1 {
       margin: 2rem 0 0;
       text-align: center;
       text-transform: uppercase;
       font-size: 4rem;
       color: #fff; }
+      @media only screen and (max-width: 500px) {
+        .about__heading-1 {
+          font-size: 3rem; } }
     .about__heading-2 {
       margin: 2rem 0 0;
       text-align: center;
       text-transform: uppercase;
       font-size: 4rem;
       color: #fff; }
+      @media only screen and (max-width: 500px) {
+        .about__heading-2 {
+          font-size: 3rem; } }
   .about__paragraph {
     margin: 1rem auto 2rem auto;
     width: 70%;
@@ -127,6 +139,9 @@ body {
     font-weight: 500;
     color: #fff;
     text-align: center; }
+    @media only screen and (max-width: 500px) {
+      .about__paragraph {
+        width: 100%; } }
     .about__paragraph-1 {
       margin: 1rem auto 2rem auto;
       width: 70%;
@@ -136,6 +151,9 @@ body {
       font-weight: 500;
       color: #fff;
       text-align: center; }
+      @media only screen and (max-width: 500px) {
+        .about__paragraph-1 {
+          width: 100%; } }
     .about__paragraph-2 {
       margin: 1rem auto 2rem auto;
       width: 70%;
@@ -159,6 +177,32 @@ body {
     top: 31rem;
     z-index: 100;
     animation: glowing .5s infinite; }
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  border-radius: 2px; }
+
+.btn-hacknet {
+  color: #fff;
+  background-color: #8D0000;
+  padding: 1rem 2rem; }
+  @media only screen and (max-width: 324px) {
+    .btn-hacknet {
+      padding: 1rem 1rem; } }
+
+.btn-freenet {
+  color: #fff;
+  background-color: #009c08;
+  padding: 1rem 2rem; }
+  @media only screen and (max-width: 324px) {
+    .btn-freenet {
+      padding: 1rem 1rem; } }
+
+.btn-coders {
+  color: #fff;
+  background-color: #000000;
+  padding: 1rem 2rem; }
 
 @keyframes glowing {
   0% {
@@ -258,18 +302,21 @@ body {
 
 .about {
   grid-column: full-start / col-start 5;
-  grid-row: 2 / 3; }
+  grid-row: 2 / 3;
+  text-align: center; }
 
 .about-1 {
   background-color: #146e02;
   grid-column: col-start 5 / full-end;
-  grid-row: 2 / 3; }
+  grid-row: 2 / 3;
+  text-align: center; }
 
 .about-2 {
   background-color: #8d0000;
   grid-column: full-start / full-end;
   grid-row: 3 / 4;
-  padding: 5vw; }
+  padding: 5vw;
+  text-align: center; }
 
 .contact {
   grid-column: center-start / center-end; }
