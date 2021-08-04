@@ -225,6 +225,11 @@
     background-color: #8D0000;
     padding: 1rem 2rem;
 
+    @media only screen and (max-width: 400px) {
+        margin-bottom: 2rem;
+    }
+    
+
     @media only screen and (max-width: 324px) {
         padding: 1rem 1rem;
     }
@@ -234,6 +239,10 @@
     color: #fff;
     background-color: #009c08;
     padding: 1rem 2rem;
+
+    @media only screen and (max-width: 400px) {
+        margin-bottom: 2rem;
+    }
 
     @media only screen and (max-width: 324px) {
         padding: 1rem 1rem;
