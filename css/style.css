@@ -193,6 +193,9 @@ body {
   color: #fff;
   background-color: #8D0000;
   padding: 1rem 2rem; }
+  @media only screen and (max-width: 400px) {
+    .btn-hacknet {
+      margin-bottom: 2rem; } }
   @media only screen and (max-width: 324px) {
     .btn-hacknet {
       padding: 1rem 1rem; } }
@@ -201,6 +204,9 @@ body {
   color: #fff;
   background-color: #009c08;
   padding: 1rem 2rem; }
+  @media only screen and (max-width: 400px) {
+    .btn-freenet {
+      margin-bottom: 2rem; } }
   @media only screen and (max-width: 324px) {
     .btn-freenet {
       padding: 1rem 1rem; } }
