@@ -128,7 +128,6 @@ body {
         .about__heading-1 {
           font-size: 3rem; } }
     .about__heading-2 {
-      margin: 2rem 0 0;
       text-align: center;
       text-transform: uppercase;
       font-size: 4rem;
@@ -329,6 +328,9 @@ body {
   grid-row: 3 / 4;
   padding: 5vw;
   text-align: center; }
+  @media only screen and (max-width: 1000px) {
+    .about-2 {
+      padding: 5vw 5vw 8vw 5vw; } }
 
 .contact {
   grid-column: center-start / center-end; }
