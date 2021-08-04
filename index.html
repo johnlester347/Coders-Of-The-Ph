@@ -13,23 +13,24 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="home">
         <nav class="nav">
             <h1 class="heading-1">Coders Of The Philippines</h1>
             <i class="fas fa-bars burger"></i>
             <ul class="nav__list">
-                <li class="nav__item"><a href="#" class="nav__link"><i class="fas fa-user"></i>Home</a></li>
-                <li class="nav__item"><a href="#" class="nav__link"><i class="fas fa-mobile-alt"></i>Contact</a></li>
-                <li class="nav__item"><a href="#" class="nav__link"><i class="fas fa-user-friends"></i>About</a></li>
+                <li class="nav__item"><a href="#home" class="nav__link"><i class="fas fa-user"></i>Home</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link"><i class="fas fa-mobile-alt"></i>Contact</a>
+                </li>
+                <li class="nav__item"><a href="#about" class="nav__link"><i class="fas fa-user-friends"></i>About</a>
+                </li>
             </ul>
         </nav>
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="./img/Coders Of The Philippines Cover-2.jpg" alt="Cover"
+                <div class="swiper-slide"><img src="./img/cotp.jpg" alt="Cover" class="header__img"></div>
+                <div class="swiper-slide"><img src="./img/Coders-Of-The-Philippines-Cover-1.jpg" alt="Cover"
                         class="header__img"></div>
-                <div class="swiper-slide"><img src="./img/Coders Of The Philippines Cover-2.jpg" alt="Cover"
-                        class="header__img"></div>
-                <div class="swiper-slide"><img src="./img/Coders Of The Philippines Cover-2.jpg" alt="Cover"
+                <div class="swiper-slide"><img src="./img/Coders-Of-The-Philippines-Cover-3.jpg" alt="Cover"
                         class="header__img"></div>
             </div>
             Add Arrows
@@ -41,7 +42,7 @@
 
     </header>
 
-    <section class="about">
+    <section class="about" id="group">
         <div class="about__sidebar">
             <img src="./img/Sidebar Coders-Logo-Only.png" alt="" class="sidebar__logo">
             <img src="./img/Sidebar Black Coders.png" alt="sidebar" class="sidebar">
@@ -50,7 +51,7 @@
         <div class="about__box">
             <h1 class="about__heading">About Us</h1>
             <p class="about__paragraph">Http Injector Hacknet</p>
-            <img src="./img/laptop.png" alt="Laptop photo" class="about__img">
+            <img src="./img/laptop-hacknet.png" alt="Laptop photo" class="about__img">
         </div>
 
         <a class="btn btn-hacknet" href="https://www.facebook.com/groups/443220822733487" target="_blank">Visit our
@@ -63,14 +64,14 @@
                 <h1 class="about__heading-1">About Us</h1>
                 <p class="about__paragraph-1">HTTP Injector Freenet Users
                 </p>
-                <img src="./img/laptop.png" alt="Laptop photo" class="about__img">
+                <img src="./img/laptop-freenet.png" alt="Laptop photo" class="about__img">
             </div>
             <a class="btn btn-freenet" href="https://www.facebook.com/groups/JuniorGroup47" target="_blank">Visit our
                 group</a>
         </section>
     </section>
 
-    <section class="about-2">
+    <section class="about-2" id="about">
         <div class="about__box">
             <h1 class="about__heading-2">About Us</h1>
             <p class="about__paragraph-2">This is the official community page/website of Coders Of The Philippines.
@@ -82,7 +83,7 @@
 
 
 
-    <section class="contact">
+    <section class="contact" id="contact">
 
         <h1 class="contact__heading">Contact</h1>
         <div class="contact__box">
@@ -121,10 +122,10 @@
 
     <footer class="footer">
         <ul class="footer__list">
-            <li class="footer__item"><a href="" class="footer__link">About</a></li>
-            <li class="footer__item"><a href="" class="footer__link">Contact</a></li>
-            <li class="footer__item"><a href="" class="footer__link">Page</a></li>
-            <li class="footer__item"><a href="" class="footer__link">Group</a></li>
+            <li class="footer__item"><a href="#about" class="footer__link">About</a></li>
+            <li class="footer__item"><a href="#contact" class="footer__link">Contact</a></li>
+            <li class="footer__item"><a href="#about" class="footer__link">Page</a></li>
+            <li class="footer__item"><a href="#group" class="footer__link">Group</a></li>
         </ul>
     </footer>
 
